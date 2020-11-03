@@ -267,6 +267,7 @@ div.ex-1-square:hover {
 }
 
 @keyframes aroundleft {
+
   0%,100% {
     left: 10%;
   }
@@ -301,12 +302,12 @@ div.ex-1-square:hover {
   }
 
   20% {
-    right: 90%;
+    right: 80%;
     bottom: -10px;
   }
 
   40% {
-  right: 90%;
+  right: 80%;
   bottom: 90%;
   }
 
