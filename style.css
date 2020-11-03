@@ -85,6 +85,15 @@ div.ex-1-square:hover {
 
 
 /* esercizio 2 */
+
+.ex-2-square {
+  transition: width 2s;
+}
+
+.ex-2-square:active {
+  width: 100%;
+}
+
 /* /esercizio 2 */
 
 
