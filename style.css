@@ -165,6 +165,17 @@ div.ex-1-square:hover {
 
 
 /* esercizio 8 */
+
+.ex-8-img {
+  transition: all 2.5s;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(0.7);
+  filter: contrast(-150%);
+  border-radius: 30px;
+}
+
 /* /esercizio 8 */
 
 
