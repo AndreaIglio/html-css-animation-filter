@@ -152,6 +152,15 @@ div.ex-1-square:hover {
 
 
 /* esercizio 7 */
+
+.ex-7-img {
+  transition: filter 2.5s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(1);
+}
+
 /* /esercizio 7 */
 
 
