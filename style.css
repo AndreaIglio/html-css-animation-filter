@@ -245,6 +245,46 @@ div.ex-1-square:hover {
 
 
 /* esercizio 12 */
+
+
+.ex-12-button:hover >.ex-12-top-white{
+  animation-name: mymove;
+  animation-duration: 1500ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+
+}
+
+.ex-12-button:hover >.ex-12-bottom-white {
+  animation-name: mymoveright;
+  animation-duration: 1500ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+
+  0%, 100% {
+    left: 10%;
+  }
+
+  50% {
+    left: 60%;
+  }
+
+}
+
+@keyframes mymoveright {
+  0%, 100% {
+    right: 10%;
+  }
+
+  50% {
+    right: 60%;
+  }
+
+}
+
 /* /esercizio 12 */
 
 
