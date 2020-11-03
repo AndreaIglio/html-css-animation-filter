@@ -218,6 +218,29 @@ div.ex-1-square:hover {
 
 
 /* esercizio 11 */
+
+.ex-11-icon:hover {
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+
+0% {
+  transform: rotate(0deg);
+}
+
+75% {
+  transform: rotate(270deg);
+}
+
+85% {
+  transform: rotate(320deg);
+}
+
+}
+
 /* /esercizio 11 */
 
 
